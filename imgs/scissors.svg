@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg2097"
+   version="1.1"
+   viewBox="0 0 48.675285 34.259331"
+   height="34.259331mm"
+   width="48.675285mm">
+  <defs
+     id="defs2091" />
+  <metadata
+     id="metadata2094">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-122.31712,-81.054857)"
+     id="layer1">
+    <g
+       transform="matrix(-0.12341225,0.30143979,-0.30143979,-0.12341225,525.71845,247.13906)"
+       id="imagebot_10">
+      <path
+         d="m 40.317119,1309.1191 c 3.727,6.1 -0.484,10 -6.16,12.9 -8.03,4.1 -27.898,2.1 -34.70000004,-2 -6.24299996,-3.8 -9.01299996,-9.3 -6.04099996,-14.2"
+         style="fill:#ffffff;stroke:#000000;stroke-width:4.06139994;stroke-linecap:round;stroke-linejoin:round"
+         id="imagebot_18" />
+      <path
+         d="m -27.799881,1264.2191 c -0.857,15.7 13.893,40.3 31.364,46.1 9.022,2.9 29.326,3.8 36.494,-1.5 12.278,-9 18.478,-20.7 21.288,-35.1 0.99,-5.1 1.24,-10.9 0.95,-15.7 -1.2892,-17.564 -14.828,-27.886 -20.606,-31.93 -0.182,-11.45 0.977,-25.25 2.816,-38.22 2.751,-19.4 -24.341,-14.51 -26.732,3.69 -1.119,8.52 -3.056,15.51 -5.109,34.59 -3.145,-10.28 -8.431,-25.04 -10.205,-35.24 -2.92500004,-16.83 -27.057,-6.74 -23.048,13.76 2.731,13.96 7.07,24.24 9.739,37.54 -2.806,2.21 -16.056,5.71 -16.951,22.01 z"
+         style="fill:#ffffff;stroke:#000000;stroke-width:4.06139994;stroke-linecap:round;stroke-linejoin:round"
+         id="imagebot_17" />
+      <path
+         d="m 10.422119,1225.7591 c 3.037,12.66 7.491,18.46 9.149,21.46 -2.12,-7.92 -2.868,-9.87 -4.494,-18.45 -0.275,-1.46 -0.356,-3.2 -0.116,-5.33 z"
+         style="fill:#000000;stroke-width:5.78100014"
+         id="imagebot_16" />
+      <path
+         d="m 39.661119,1226.1891 c 0.126,7.64 2.111,16.81 4.971,22.53 -0.30609,-8.2722 -0.55595,-14.803 -1.0313,-22.676 -0.021,0 -1.961,0.15 -3.94,0.15 z"
+         style="fill:#000000;stroke-width:5.78100014"
+         id="imagebot_15" />
+      <path
+         d="m 30.488119,1301.5191 c 4.036,-9.7 3.976,-12.5 5.195,-17.4"
+         style="fill:none;stroke:#000000;stroke-width:4.06139994;stroke-linecap:round;stroke-linejoin:round"
+         id="imagebot_14" />
+      <path
+         d="m 21.106119,1302.2191 c 1.693,-11.5 1.425,-17.2 1.856,-24.9"
+         style="fill:none;stroke:#000000;stroke-width:4.06139994;stroke-linecap:round;stroke-linejoin:round"
+         id="imagebot_13" />
+      <path
+         d="m 9.887119,1302.7191 c 0.098,-8 -0.598,-11.8 -1.048,-16.8"
+         style="fill:none;stroke:#000000;stroke-width:4.06139994;stroke-linecap:round;stroke-linejoin:round"
+         id="imagebot_12" />
+      <path
+         d="m -13.128881,1241.2391 c 3.892,16.78 -1.201,23.38 -4.587,31.88 5.145,-8.8 12.14,-11.8 8.841,-31.41 z"
+         style="fill:#000000;stroke-width:5.78100014"
+         id="imagebot_11" />
+    </g>
+  </g>
+</svg>

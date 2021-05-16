@@ -1,0 +1,91 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body onload="moveTop()">
+    <script type="text/javascript" src="functions.js"></script>
+    <div class="main">
+      <h1 class="title">PLAY ROCK PAPER SCISSORS</h1>
+      <p class="title-comment">The game consists of 5 rounds</p>
+      <div class="start">
+        <h1 class="start-text">
+          Are you Ready? Click the button to start playing
+        </h1>
+        <button onclick="start()" class="start-button">Start</button>
+      </div>
+      <div class="canvas">
+        <div class="board">
+          <div class="board-info">
+            <h5 class="board-info-text">Round</h5>
+            <h5 class="board-info-number round">1</h5>
+            <h5 class="board-info-number">/ 5</h5>
+          </div>
+
+          <div class="user-side">
+            <h5 class="canvas-name">Your choice</h5>
+            <img class="user-side-menu-1" src="imgs/paper.svg" alt="Paper" />
+            <img class="user-side-menu-2" src="imgs/rock.svg" alt="Rock" />
+            <img
+              class="user-side-menu-3"
+              src="imgs/scissors.svg"
+              alt="Scissors"
+            />
+          </div>
+          <div class="pc-side">
+            <h5 class="canvas-name">Its choice</h5>
+            <img class="pc-side-menu-1" src="imgs/paper.svg" alt="Paper" />
+            <img class="pc-side-menu-2" src="imgs/rock.svg" alt="Rock" />
+            <img
+              class="pc-side-menu-3"
+              src="imgs/scissors.svg"
+              alt="Scissors"
+            />
+          </div>
+          <h5 class="won-hand hand">You won this hand!</h5>
+          <h5 class="lost-hand hand">You lost this hand!</h5>
+          <h5 class="tie-hand hand">Tie game!</h5>
+          <h1 class="board-start">Choose your hand from the panel below</h1>
+          <h1 class="board-end-win board-end">You won the game</h1>
+          <h1 class="board-end-lost board-end">You lost the game</h1>
+          <button onclick="start()" class="board-end-button">
+            PLAY AGAIN!
+          </button>
+        </div>
+        <div class="panel">
+          <div class="user-score panel-score">
+            <h1 class="score-label">Your score</h1>
+            <h1 class="score-user">1</h1>
+          </div>
+          <div class="user">
+            <h5 class="canvas-name wait-turn">Please wait</h5>
+            <h5 class="canvas-name user-turn">Your turn</h5>
+            <p class="canvas-state user-turn">Choose one</p>
+            <div class="menu user-turn">
+              <button onClick="play('Paper')" class="menu-button button-1">
+                <img class="menu-options-1" src="imgs/paper.svg" alt="Paper" />
+              </button>
+              <button onClick="play('Rock')" class="menu-button button-2">
+                <img class="menu-options-2" src="imgs/rock.svg" alt="Rock" />
+              </button>
+              <button onClick="play('Scissors')" class="menu-button button-3">
+                <img
+                  class="menu-options-3"
+                  src="imgs/scissors.svg"
+                  alt="Scissors"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="pc-score panel-score">
+            <h1 class="score-label">Pc score</h1>
+            <h1 class="score-pc">1</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

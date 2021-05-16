@@ -1,0 +1,260 @@
+body {
+ background-color: #848484;
+ padding-top: 2%; 
+ margin:0%;
+ font-family: system-ui;
+}
+
+h1,h2,h3,h4,h5,h6 {
+ margin: 0%;
+}
+
+.title {
+  text-align: center;
+  font-size: 42px;
+}
+
+.title-comment {
+  color: white;
+  text-align: center;
+}
+
+.start {
+    display: grid;
+    min-height: 300px;
+    max-width: 600px;
+    background-color: #bdb3b3;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    padding: 32px;
+    border-radius: 16px;
+    visibility: visible;    
+}
+
+.start-text {
+    align-self: center;
+    text-align: center;
+}
+
+.start-button {
+    height: 100px;
+    width: 200px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    background: white;
+    justify-self: center;
+}
+
+.canvas {
+    display: grid;
+    grid-template-rows: auto auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    visibility: hidden;
+}
+
+.board {
+    display: grid;
+    grid-row-start: 1;
+    grid-template-rows: 60px auto 60px;
+    grid-template-columns: repeat(2,50%);
+    min-height: 400px;
+    height: 400px;
+    border: 2px solid black;
+    border-radius: 16px;
+    background-color: gray;
+    padding: 5px;
+    min-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}  
+
+
+.board-info {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-column-gap: 12px;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    justify-content: center;
+    font-size: 32px;
+    margin-top: 2%;
+}
+
+.board-start {
+    align-self: center;
+    width: 700px;
+    text-align: center;
+}
+
+.board-end {
+    display: none;
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    justify-content: center;
+    font-size: 64px;
+    margin-top: 2%;
+    text-align: center;
+    align-self: center;
+}
+
+.board-end-button {
+    display: none;
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    justify-content: center;
+    font-size: 24px;
+    margin-top: 2%;
+    text-align: center;
+    align-self: center;
+}
+
+.board-end-win{
+    color: gold;
+}
+
+.board-end-lost{
+    color: #820000;
+}
+
+.user-side {
+    display: grid;
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-template-rows: 40px 200px;
+    align-items: center;
+    justify-items: center;
+}
+
+
+.user-side-menu-1 {
+  display: block;
+  visibility: hidden; 
+  grid-row-start: 2; 
+  grid-column-start: 1;
+}
+
+.user-side-menu-2 {
+   display: block;
+   visibility: hidden;
+   grid-row-start: 2;
+   grid-column-start: 1; 
+}
+.user-side-menu-3 {
+  display: block;
+  visibility: hidden;
+  grid-row-start: 2; 
+  grid-column-start: 1;
+}
+
+.pc-side {
+    display: grid;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-template-rows: 40px 200px;
+    align-items: center;
+    justify-items: center;   
+}
+
+.pc-side-menu-1 {
+  display: block;
+  visibility: hidden;
+  grid-row-start: 2; 
+  grid-column-start: 1;
+}
+
+.pc-side-menu-2 {
+  display: block;
+  visibility: hidden;
+  grid-row-start: 2;
+  grid-column-start: 1;   
+}
+.pc-side-menu-3 {
+   display: block;
+   visibility: hidden;
+   grid-row-start: 2; 
+   grid-column-start: 1;
+}
+
+.hand {
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    visibility: hidden;
+}
+
+
+
+.panel {
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+}
+
+.user {
+    /*display: grid;*/ 
+    display: none;    
+    min-width: 700px;
+    background-color: #989898;
+    border: 2px solid #989898;
+    border-radius: 16px;
+    justify-content: center;
+    padding: 2%;
+}
+
+.canvas-name {
+    text-align: center;
+    font-size: 22px;
+}
+
+.canvas-state {
+    text-align: center;
+    font-size: 18px;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(3,260px);
+    grid-column-gap: 16px;  
+}
+
+.menu-button {
+    background-color: transparent;
+    border: 6px solid black;
+    padding: 5%;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+
+.panel-score {
+    align-self: center;
+    min-width: 200px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 16px;
+    padding: 5%;
+    display: grid;
+    justify-items: center;
+}
+
+.wait-turn {
+   visibility: hidden;
+}
+
+.user-turn {
+    visibility: visible;
+}
+
+
